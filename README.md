@@ -1,3 +1,3 @@
 # Spring-courses
 
-Saugomas kodos pagal paskaitas
+Saugomi kodo pavyzdžiai pagal paskaitas
