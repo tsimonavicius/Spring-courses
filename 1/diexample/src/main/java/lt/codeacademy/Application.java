@@ -1,5 +1,6 @@
 package lt.codeacademy;
 
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -19,12 +20,10 @@ public class Application {
     }
 
     private static void springDIExample() {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
+        ApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
         StudentService studentService = context.getBean(StudentService.class);
 
         System.out.println("----------------------------- " + studentService.avarrage());
-
-        context.close();
     }
 
 }
