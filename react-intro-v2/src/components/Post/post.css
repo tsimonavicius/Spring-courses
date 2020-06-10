@@ -1,0 +1,53 @@
+.post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    margin: 25px 25px 0 25px;
+    color: white;
+}
+
+.button {
+    padding: 5px;
+}
+
+.button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.bg-black {
+    background-color: #666666;
+}
+
+.bg-red {
+    background-color: red;
+}
+.post-actions {
+    font-size: 15px;
+}
+
+.post-actions-buttons {
+    color: blue;
+    padding: 10px;
+}
+
+.post-actions-date {
+    color: white;
+    padding:10px;
+}
+
+.post-comment {
+    margin-left: 25px;
+    background: grey;
+    width: 500px;
+    height: 100px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 25px;
+}
